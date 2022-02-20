@@ -1,8 +1,8 @@
 var randomNum1=Math.floor(Math.random()*6)+1; //gives random number bw 1 and 6
 
-var randomDiceIamge="dice" + randomNum1 + ".png"; //dice1.png - dice6.png
+var randomDiceImage="dice" + randomNum1 + ".png"; //dice1.png - dice6.png
 
-var randomImageSource= "images/"+randomDiceIamge; //images/dice1.png - images/dice6.png
+var randomImageSource= "images/"+randomDiceImage; //images/dice1.png - images/dice6.png
 
 var image1 = document.querySelectorAll("img")[0];
 
@@ -11,9 +11,11 @@ image1.setAttribute("src", randomImageSource);
 
 var randomNum2=Math.floor(Math.random()*6)+1; 
 
-var randomIamgeSource2 ="images/dice" + randomNum2 + ".png";
+var randomDiceImage2="dice" + randomNum2 + ".png"; //dice1.png - dice6.png
 
-document.querySelectorAll("img")[1].setAttribute("src",randomIamgeSource2);
+var randomImageSource2= "images/"+randomDiceImage2; //images/dice1.png - images/dice6.png
+
+document.querySelectorAll("img")[1].setAttribute("src",randomImageSource2);
 
 
 
