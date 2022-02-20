@@ -1,6 +1,6 @@
 var randomNum1=Math.floor(Math.random()*6)+1; //gives random number bw 1 and 6
 
-var randomDiceIamge="Dice" + randomNum1 + ".png"; //dice1.png - dice6.png
+var randomDiceIamge="dice" + randomNum1 + ".png"; //dice1.png - dice6.png
 
 var randomImageSource= "images/"+randomDiceIamge; //images/dice1.png - images/dice6.png
 
