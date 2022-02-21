@@ -32,10 +32,28 @@ img {
   width: 80%;
 }
 
+.button {
+  margin-top: 1.5rem;
+  font-size: 16px;
+  font-family: 'Indie Flower', cursive;
+  padding: 15px 32px;
+  background-color: #245270;
+  color: #faf9f6;
+  border-radius: 8px;
+  border: 2px solid #9C060C;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #9C060C;
+  color: white;
+}
+
+
 footer {
   margin-top: 5%;
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
-
 }
